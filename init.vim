@@ -1,5 +1,11 @@
 " GENERAL
 set number
+set cursorline
+set ttyfast
+set clipboard=unnamed
+
+syntax on
+
 
 " PLUGINS
 
