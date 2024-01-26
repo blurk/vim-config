@@ -13,7 +13,7 @@ if exists(':GuiPopupmenu')
 endif
 
 if exists(':GuiScrollBar')
-    GuiScrollBar 1
+    GuiScrollBar 0
 endif
 
 if exists('GuiWindowOpacity')
