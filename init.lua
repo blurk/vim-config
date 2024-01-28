@@ -264,6 +264,10 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+vim.o.expandtab = true
+vim.o.shiftwidth = 2
+vim.o.softtabstop = 2
+
 -- Relative line numbers default
 vim.o.nu = true
 vim.o.relativenumber = true
