@@ -179,9 +179,13 @@ require('lazy').setup({
   {
     -- Vscode dark theme
     'tomasiser/vim-code-dark',
+    name = 'codedark',
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'codedark'
+
+      vim.api.nvim_set_hl(0, 'Normal',  { bg = "none" })
+      vim.api.nvim_set_hl(0, 'NormalFloat',  { bg = "none" })
     end,
   },
 
@@ -260,11 +264,15 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Relative line numbers default
+vim.o.nu = true
+vim.o.relativenumber = true
+
+-- Set highlight on current line
+vim.o.cul = true
+
 -- Set highlight on search
 vim.o.hlsearch = true
-
--- Relative line numbers default
-vim.wo.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
