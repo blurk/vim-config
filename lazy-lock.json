@@ -16,7 +16,7 @@
   "neovim-gui-shim": { "branch": "master", "commit": "2e561a0931e08e4620c3a968e27d3745e9eaf2fd" },
   "nvim-cmp": { "branch": "main", "commit": "538e37ba87284942c1d76ed38dd497e54e65b891" },
   "nvim-lspconfig": { "branch": "master", "commit": "8917d2c830e04bf944a699b8c41f097621283828" },
-  "nvim-treesitter": { "branch": "master", "commit": "458ce4d16c1771fc601ec10a87820acae9981f6d" },
+  "nvim-treesitter": { "branch": "master", "commit": "95987ee2d6698577af45ae49261159fa624ea593" },
   "nvim-treesitter-textobjects": { "branch": "master", "commit": "19a91a38b02c1c28c14e0ba468d20ae1423c39b2" },
   "plenary.nvim": { "branch": "master", "commit": "663246936325062427597964d81d30eaa42ab1e4" },
   "telescope.nvim": { "branch": "0.1.x", "commit": "d90956833d7c27e73c621a61f20b29fdb7122709" },
