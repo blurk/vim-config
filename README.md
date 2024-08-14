@@ -7,6 +7,7 @@
 
 ## Commands
 
+### This is fore windows
 ```shell
  cd ~\AppData\Local\nvim && git clone https://github.com/blurk/vim-config.git .
 ```
