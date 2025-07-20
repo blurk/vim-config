@@ -2,7 +2,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 vim.opt.mouse = ""
-				
+
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
@@ -18,4 +18,6 @@ vim.opt.clipboard = "unnamedplus"
 vim.g.mapleader = " "
 
 vim.keymap.set("n", "<Leader>w", ":w<CR>", { desc = "Save File" })
+vim.keymap.set("n", "<Leader>e", ":Explore<CR>", { desc = "Open Explorer" })
+vim.keymap.set("n", "<C-n>", ":nohl<CR>", { desc = "Turn off highlight" })
 
