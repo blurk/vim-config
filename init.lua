@@ -20,4 +20,7 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<Leader>w", ":w<CR>", { desc = "Save File" })
 vim.keymap.set("n", "<Leader>e", ":Explore<CR>", { desc = "Open Explorer" })
 vim.keymap.set("n", "<C-n>", ":nohl<CR>", { desc = "Turn off highlight" })
+vim.keymap.set("n", "<Tab>", ":bn<CR>", { desc = "Next Buffer" })
+vim.keymap.set("n", "<S-Tab>", ":bp<CR>", { desc = "Prev Buffer" })
+vim.keymap.set("n", "<Leader>a", "ggVG", { desc = "Select All", noremap = true, silent = true })
 
