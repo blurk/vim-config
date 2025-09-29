@@ -1,13 +1,4 @@
-# Simple vim config
+# 💤 LazyVim
 
-## Notes
-
-- Currently I'm only using Windows so it's just windows only
-- I'm too lazy for config stuff now. Just want to code only 💀
-
-## Commands
-
-### This is fore windows
-```shell
- cd ~\AppData\Local\nvim && git clone https://github.com/blurk/vim-config.git .
-```
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
